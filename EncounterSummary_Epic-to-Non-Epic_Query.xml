@@ -1,0 +1,2037 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClinicalDocument xmlns="urn:hl7-org:v3">
+    <realmCode code="US"/>
+    <typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3"/>
+    <templateId root="1.2.840.114350.1.72.1.51693"/>
+    <templateId root="2.16.840.1.113883.10.20.22.1.1"/>
+    <templateId root="2.16.840.1.113883.10.20.22.1.9"/>
+    <id assigningAuthorityName="EPC" extension="b8910010-17b5-4e6e-8813-48657f8b4098"
+        root="1.2.840.114350.1.13.5.1.7.1.1"/>
+    <code code="11506-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+        displayName="Subsequent evaluation note"/>
+    <title>Progress Note</title>
+    <effectiveTime value="20150611154837-0500"/>
+    <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+    <languageCode code="en-US"/>
+    <recordTarget>
+        <patientRole>
+            <id extension="GEC0062800" root="1.2.840.114350.1.13.5.1.7.3.688884.100"/>
+            <addr use="HP">
+                <streetAddressLine>2154 Ouderkirk St.</streetAddressLine>
+                <city>SAINT LOUIS PARK</city>
+                <state>MN</state>
+                <postalCode>55426</postalCode>
+                <country>USA</country>
+            </addr>
+            <telecom use="HP" value="tel:+1-714-867-5646"/>
+            <telecom use="WP" value="tel:+1-952-432-8733"/>
+            <telecom use="MC" value="tel:+1-952-220-6212"/>
+            <telecom value="mailto://BirdWatcher@gmail.com"/>
+            <patient>
+                <name use="L">
+                    <prefix qualifier="TITLE">Ms.</prefix>
+                    <given>Elsie</given>
+                    <family>Wong</family>
+                </name>
+                <administrativeGenderCode code="F" codeSystem="2.16.840.1.113883.5.1"
+                    codeSystemName="AdministrativeGenderCode" displayName="Female"/>
+                <birthTime value="19890802"/>
+                <maritalStatusCode code="S" codeSystem="2.16.840.1.113883.5.2"
+                    codeSystemName="MaritalStatusCode" displayName="Single"/>
+                <raceCode code="2106-3" codeSystem="2.16.840.1.113883.6.238"
+                    codeSystemName="CDC Race and Ethnicity" displayName="White"/>
+                <ethnicGroupCode code="2186-5" codeSystem="2.16.840.1.113883.6.238"
+                    codeSystemName="CDC Race and Ethnicity" displayName="Non-Hispanic"/>
+                <languageCommunication>
+                    <languageCode code="eng"/>
+                    <preferenceInd value="true"/>
+                </languageCommunication>
+                <languageCommunication>
+                    <languageCode code="eng"/>
+                    <modeCode code="RWR" codeSystem="2.16.840.1.113883.5.60"
+                        displayName="Received Written"/>
+                </languageCommunication>
+            </patient>
+            <providerOrganization>
+                <id extension="100" root="1.2.840.114350.1.13.5.1.7.2.696570"/>
+                <name>EPIC HEALTH SYSTEM CLINICS</name>
+                <telecom use="WP" value="tel:+1-271-9000"/>
+                <addr>
+                    <streetAddressLine>5301 TOKAY BLVD</streetAddressLine>
+                    <city>MADISON</city>
+                    <state>WI</state>
+                    <postalCode>53711</postalCode>
+                </addr>
+            </providerOrganization>
+        </patientRole>
+    </recordTarget>
+    <author>
+        <time value="20150611154837"/>
+        <assignedAuthor>
+            <id extension="8.1" root="1.2.840.114350.1.1"/>
+            <addr nullFlavor="NA">
+                <streetAddressLine nullFlavor="UNK"/>
+                <city nullFlavor="UNK"/>
+            </addr>
+            <telecom nullFlavor="NA"/>
+            <assignedAuthoringDevice>
+                <manufacturerModelName>Epic - Version 8.1</manufacturerModelName>
+                <softwareName>Epic - Version 8.1</softwareName>
+            </assignedAuthoringDevice>
+            <representedOrganization>
+                <id extension="100" root="1.2.840.114350.1.13.5.1.7.2.696570"/>
+                <name>EPIC HEALTH SYSTEM CLINICS</name>
+                <telecom use="WP" value="tel:+1-271-9000"/>
+                <addr>
+                    <streetAddressLine>5301 TOKAY BLVD</streetAddressLine>
+                    <city>MADISON</city>
+                    <state>WI</state>
+                    <postalCode>53711</postalCode>
+                </addr>
+            </representedOrganization>
+        </assignedAuthor>
+    </author>
+    <custodian>
+        <assignedCustodian>
+            <representedCustodianOrganization>
+                <id extension="100" root="1.2.840.114350.1.13.5.1.7.2.696570"/>
+                <name>EPIC HEALTH SYSTEM CLINICS</name>
+                <telecom use="WP" value="tel:+1-271-9000"/>
+                <addr>
+                    <streetAddressLine>5301 TOKAY BLVD</streetAddressLine>
+                    <city>MADISON</city>
+                    <state>WI</state>
+                    <postalCode>53711</postalCode>
+                </addr>
+            </representedCustodianOrganization>
+        </assignedCustodian>
+    </custodian>
+    <participant typeCode="IND">
+        <templateId root="2.16.840.1.113883.3.88.11.32.3"/>
+        <templateId root="2.16.840.1.113883.3.88.11.83.3"/>
+        <templateId root="1.3.6.1.4.1.19376.1.5.3.1.2.4"/>
+        <time value="20081105"/>
+        <associatedEntity classCode="ECON">
+            <id nullFlavor="UNK"/>
+            <code nullFlavor="OTH">
+                <originalText>Mother</originalText>
+            </code>
+            <addr nullFlavor="NA"/>
+            <telecom use="HP" value="tel:+1-608-789-9877"/>
+            <telecom use="WP" value="tel:+1-608-789-4233"/>
+            <associatedPerson>
+                <name use="P">
+                    <given>Judith</given>
+                </name>
+            </associatedPerson>
+        </associatedEntity>
+    </participant>
+    <participant typeCode="IND">
+        <templateId root="2.16.840.1.113883.3.88.11.32.3"/>
+        <templateId root="2.16.840.1.113883.3.88.11.83.3"/>
+        <templateId root="1.3.6.1.4.1.19376.1.5.3.1.2.4"/>
+        <time value="20081105"/>
+        <associatedEntity classCode="ECON">
+            <id nullFlavor="UNK"/>
+            <code nullFlavor="OTH">
+                <originalText>Father</originalText>
+            </code>
+            <addr nullFlavor="NA"/>
+            <telecom use="HP" value="tel:+1-608-789-9877"/>
+            <telecom use="WP" value="tel:+1-608-789-2213"/>
+            <associatedPerson>
+                <name use="P">
+                    <given>Roger</given>
+                </name>
+            </associatedPerson>
+        </associatedEntity>
+    </participant>
+    <documentationOf typeCode="DOC">
+        <serviceEvent classCode="PCPR">
+            <templateId root="2.16.840.1.113883.10.20.21.3.1"/>
+            <effectiveTime>
+                <low value="20150216"/>
+                <high value="20150611"/>
+            </effectiveTime>
+            <performer typeCode="PRF">
+                <templateId root="2.16.840.1.113883.3.88.11.32.4"/>
+                <templateId root="2.16.840.1.113883.3.88.11.83.4"/>
+                <templateId root="1.3.6.1.4.1.19376.1.5.3.1.2.3"/>
+                <functionCode code="PCP" codeSystem="2.16.840.1.113883.5.88"
+                    codeSystemName="ParticipationFunction" displayName="Primary Care Provider">
+                    <originalText>Primary Care Provider</originalText>
+                </functionCode>
+                <time>
+                    <low value="20110627"/>
+                    <high nullFlavor="PINF"/>
+                </time>
+                <assignedEntity>
+                    <id extension="2429478987" root="2.16.840.1.113883.4.6"/>
+                    <addr use="WP">
+                        <streetAddressLine>916 Minnetonka Blvd.</streetAddressLine>
+                        <city>SAINT LOUIS PARK</city>
+                        <state>MN</state>
+                        <postalCode>55426</postalCode>
+                        <country>USA</country>
+                    </addr>
+                    <telecom use="WP" value="tel:+1-952-771-6841"/>
+                    <telecom value="fax:+1-952-255-6192"/>
+                    <assignedPerson>
+                        <name>
+                            <given>Drew</given>
+                            <family>Walker</family>
+                        </name>
+                    </assignedPerson>
+                </assignedEntity>
+            </performer>
+        </serviceEvent>
+    </documentationOf>
+    <componentOf>
+        <encompassingEncounter>
+            <id extension="447572" root="1.2.840.114350.1.13.5.1.7.3.698084.8"/>
+            <effectiveTime value="20150216">
+                <low value="20150216"/>
+            </effectiveTime>
+            <encounterParticipant typeCode="ATND">
+                <time value="20150216"/>
+                <assignedEntity>
+                    <id extension="2429478987" root="2.16.840.1.113883.4.6"/>
+                    <addr use="WP">
+                        <streetAddressLine>916 Minnetonka Blvd.</streetAddressLine>
+                        <city>SAINT LOUIS PARK</city>
+                        <state>MN</state>
+                        <postalCode>55426</postalCode>
+                        <country>USA</country>
+                    </addr>
+                    <telecom use="WP" value="tel:+1-952-771-6841"/>
+                    <telecom value="fax:+1-952-255-6192"/>
+                    <assignedPerson>
+                        <name>
+                            <given>Drew</given>
+                            <family>Walker</family>
+                        </name>
+                    </assignedPerson>
+                </assignedEntity>
+            </encounterParticipant>
+            <location>
+                <healthCareFacility>
+                    <id extension="100" root="1.2.840.114350.1.13.5.1.7.2.696570"/>
+                </healthCareFacility>
+            </location>
+        </encompassingEncounter>
+    </componentOf>
+    <component>
+        <structuredBody>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.12"/>
+                    <code code="29299-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                        displayName="REASON FOR VISIT"/>
+                    <title>Reason for Visit</title>
+                    <text>
+                        <table>
+                            <colgroup>
+                                <col width="25%"/>
+                                <col width="75%"/>
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th>Reason</th>
+                                    <th>Comments</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ID="rfv1-1">
+                                    <td ID="reason2">Annual Exam</td>
+                                    <td ID="comment2"/>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.1.3"/>
+                    <templateId root="2.16.840.1.113883.3.88.11.83.127"/>
+                    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.1.5.3.3"/>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.22"/>
+                    <code code="46240-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                        displayName="HISTORY OF ENCOUNTERS"/>
+                    <title>Encounter Details</title>
+                    <text>
+                        <table>
+                            <colgroup>
+                                <col width="10%"/>
+                                <col width="15%"/>
+                                <col width="25%"/>
+                                <col width="25%"/>
+                                <col width="25%"/>
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Type</th>
+                                    <th>Department</th>
+                                    <th>Care Team</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ID="encounter3">
+                                    <td>2/16/15</td>
+                                    <td ID="type4">Office Visit</td>
+                                    <td>
+                                        <paragraph>West Family Medicine Clinic</paragraph>
+                                        <paragraph>201 Madison St.</paragraph>
+                                        <paragraph>Madison, WI 53711</paragraph>
+                                        <paragraph>608-303-2340</paragraph>
+                                    </td>
+                                    <td>
+                                        <paragraph styleCode="Bold">Walker, Drew, M.D.</paragraph>
+                                        <paragraph>916 Minnetonka Blvd.</paragraph>
+                                        <paragraph>SAINT LOUIS PARK, MN 55426</paragraph>
+                                        <paragraph>952-771-6841</paragraph>
+                                        <paragraph>952-255-6192 (Fax)</paragraph>
+                                    </td>
+                                    <td ID="encounter3desc">Routine general medical examination at a
+                                        health care facility (Primary Dx); Allergic rhinitis</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry>
+                        <encounter classCode="ENC" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+                            <id assigningAuthorityName="EPIC" extension="447572"
+                                root="1.2.840.114350.1.13.5.1.7.3.698084.8"/>
+                            <code nullFlavor="OTH">
+                                <translation code="101"
+                                    codeSystem="1.2.840.114350.1.13.5.1.7.4.698084.30"
+                                    codeSystemName="Epic.EncounterType" displayName="Office Visit">
+                                    <originalText>
+                                        <reference value="#type4"/>
+                                    </originalText>
+                                </translation>
+                            </code>
+                            <text>
+                                <reference value="#encounter3desc"/>
+                            </text>
+                            <statusCode code="normal"/>
+                            <effectiveTime>
+                                <low value="20150216"/>
+                            </effectiveTime>
+                            <performer typeCode="PRF">
+                                <assignedEntity classCode="ASSIGNED">
+                                    <id extension="2429478987" root="2.16.840.1.113883.4.6"/>
+                                    <addr>
+                                        <streetAddressLine>916 Minnetonka Blvd.</streetAddressLine>
+                                        <city>SAINT LOUIS PARK</city>
+                                        <state>MN</state>
+                                        <postalCode>55426</postalCode>
+                                        <country>USA</country>
+                                    </addr>
+                                    <telecom use="WP" value="tel:+1-952-771-6841"/>
+                                    <telecom value="fax:+1-952-255-6192"/>
+                                    <assignedPerson>
+                                        <name>
+                                            <given>Drew</given>
+                                            <family>Walker</family>
+                                        </name>
+                                    </assignedPerson>
+                                    <representedOrganization classCode="ORG">
+                                        <name nullFlavor="UNK"/>
+                                        <telecom nullFlavor="UNK"/>
+                                        <addr nullFlavor="UNK"/>
+                                    </representedOrganization>
+                                </assignedEntity>
+                            </performer>
+                            <participant typeCode="LOC">
+                                <templateId root="2.16.840.1.113883.10.20.22.4.32"/>
+                                <participantRole classCode="SDLOC">
+                                    <id extension="1" root="1.2.840.114350.1.13.5.1.7.2.686980"/>
+                                    <code nullFlavor="UNK">
+                                        <originalText>Family Medicine</originalText>
+                                    </code>
+                                    <playingEntity classCode="PLC">
+                                        <name>West Family Medicine Clinic</name>
+                                        <desc>Family Medicine</desc>
+                                    </playingEntity>
+                                </participantRole>
+                            </participant>
+                            <entryRelationship typeCode="RSON">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.1.28"/>
+                                    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5"/>
+                                    <id extension="14863" root="1.2.840.114350.1.13.5.1.7.2.696871"/>
+                                    <code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+                                        codeSystemName="SNOMED CT" displayName="Problem"/>
+                                    <text>Routine general medical examination at a health care
+                                        facility</text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime nullFlavor="UNK">
+                                        <low nullFlavor="UNK"/>
+                                    </effectiveTime>
+                                    <value code="310366008" codeSystem="2.16.840.1.113883.6.96"
+                                        codeSystemName="SNOMED CT"
+                                        displayName="Routine general medical examination at a health care facility"
+                                        xsi:type="CD"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                                </observation>
+                            </entryRelationship>
+                            <entryRelationship typeCode="RSON">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.1.28"/>
+                                    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5"/>
+                                    <id extension="126437" root="1.2.840.114350.1.13.5.1.7.2.696871"/>
+                                    <code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+                                        codeSystemName="SNOMED CT" displayName="Problem"/>
+                                    <text>Allergic rhinitis</text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime nullFlavor="UNK">
+                                        <low nullFlavor="UNK"/>
+                                    </effectiveTime>
+                                    <value code="61582004" codeSystem="2.16.840.1.113883.6.96"
+                                        codeSystemName="SNOMED CT" displayName="Allergic rhinitis"
+                                        xsi:type="CD"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                                </observation>
+                            </entryRelationship>
+                            <entryRelationship typeCode="RSON" inversionInd="true">
+                                <act classCode="ACT" moodCode="EVN">
+                                    <code code="COMMENT" codeSystem="2.16.840.1.113883.6.1"
+                                        codeSystemName="LOINC"/>
+                                    <text>
+                                        <reference value="#encounter3desc"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <author>
+                                        <time value="20150216"/>
+                                        <assignedAuthor>
+                                            <id extension="2429478987" root="2.16.840.1.113883.4.6"/>
+                                            <addr>
+                                                <streetAddressLine>916 Minnetonka
+                                                  Blvd.</streetAddressLine>
+                                                <city>SAINT LOUIS PARK</city>
+                                                <state>MN</state>
+                                                <country>USA</country>
+                                            </addr>
+                                            <telecom use="WP" value="tel:+1-952-771-6841"/>
+                                            <telecom value="fax:+1-952-255-6192"/>
+                                            <assignedPerson>
+                                                <name>
+                                                  <given>Drew</given>
+                                                  <family>Walker</family>
+                                                </name>
+                                            </assignedPerson>
+                                            <representedOrganization>
+                                                <id extension="100"
+                                                  root="1.2.840.114350.1.13.5.1.7.2.696570"/>
+                                                <name>EPIC HEALTH SYSTEM CLINICS</name>
+                                                <telecom use="WP" value="tel:+1-271-9000"/>
+                                                <addr>
+                                                  <streetAddressLine>5301 TOKAY
+                                                  BLVD</streetAddressLine>
+                                                  <city>MADISON</city>
+                                                  <state>WI</state>
+                                                  <postalCode>53711</postalCode>
+                                                </addr>
+                                            </representedOrganization>
+                                        </assignedAuthor>
+                                    </author>
+                                </act>
+                            </entryRelationship>
+                            <reference typeCode="REFR">
+                                <externalObservation>
+                                    <code code="3"
+                                        codeSystem="1.2.840.114350.1.13.5.1.7.3.688882.8100"
+                                        codeSystemName="Epic.Encounter.Contents"/>
+                                </externalObservation>
+                            </reference>
+                        </encounter>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.4.1"/>
+                    <code code="8716-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                        displayName="Vital Signs"/>
+                    <title>Last Filed Vital Signs</title>
+                    <text>
+                        <table>
+                            <colgroup>
+                                <col width="25%"/>
+                                <col width="25%"/>
+                                <col width="50%"/>
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th>Vital Sign</th>
+                                    <th>Reading</th>
+                                    <th>Time Taken</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td styleCode="cellHeader">Blood Pressure</td>
+                                    <td><content ID="sysBP_5495011500">102</content>/<content
+                                            ID="diaBP_5495011500">68</content></td>
+                                    <td>Mon Feb 16, 2015 10:05 AM CST</td>
+                                </tr>
+                                <tr>
+                                    <td styleCode="cellHeader">Pulse</td>
+                                    <td ID="pulse_5495011500">68</td>
+                                    <td>Mon Feb 16, 2015 10:05 AM CST</td>
+                                </tr>
+                                <tr>
+                                    <td styleCode="cellHeader">Temperature</td>
+                                    <td ID="temp_5495011500">36.8 °C (98.2 °F)</td>
+                                    <td>Mon Feb 16, 2015 10:05 AM CST</td>
+                                </tr>
+                                <tr>
+                                    <td styleCode="cellHeader">Respiratory Rate</td>
+                                    <td ID="resp_5495011500">16</td>
+                                    <td>Mon Feb 16, 2015 10:05 AM CST</td>
+                                </tr>
+                                <tr>
+                                    <td styleCode="cellHeader">Height</td>
+                                    <td ID="height_5495011500">1.651 m (5' 5")</td>
+                                    <td>Mon Feb 16, 2015 10:05 AM CST</td>
+                                </tr>
+                                <tr>
+                                    <td styleCode="cellHeader">Weight</td>
+                                    <td ID="weight_5495011500">52.164 kg (115 lb)</td>
+                                    <td>Mon Feb 16, 2015 10:05 AM CST</td>
+                                </tr>
+                                <tr>
+                                    <td styleCode="cellHeader">Body Mass Index</td>
+                                    <td ID="bmi_5495011500">19.14</td>
+                                    <td>Mon Feb 16, 2015 10:05 AM CST</td>
+                                </tr>
+                                <tr>
+                                    <td styleCode="cellHeader">Oxygen Saturation</td>
+                                    <td ID="SpO2_5495011500">99%</td>
+                                    <td>Mon Feb 16, 2015 10:05 AM CST</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <organizer classCode="CLUSTER" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.26"/>
+                            <id extension="5495011500-Z7345" root="1.2.840.114350.1.13.5.1.7.1.2109"/>
+                            <code code="46680005" codeSystem="2.16.840.1.113883.6.96"
+                                codeSystemName="SNOMED CT" displayName="Vital signs"/>
+                            <statusCode code="completed"/>
+                            <effectiveTime value="20150216160500+0000"/>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                                    <id extension="5495011500-sysBP-Z7345"
+                                        root="1.2.840.114350.1.13.5.1.7.1.2109.1"/>
+                                    <code code="8480-6" codeSystem="2.16.840.1.113883.6.1"
+                                        codeSystemName="LOINC" displayName="SYSTOLIC BLOOD PRESSURE"/>
+                                    <text>
+                                        <reference value="#sysBP_5495011500"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216160500+0000"/>
+                                    <value xsi:type="PQ" unit="mm[Hg]" value="102"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                                    <id extension="5495011500-diaBP-Z7345"
+                                        root="1.2.840.114350.1.13.5.1.7.1.2109.1"/>
+                                    <code code="8462-4" codeSystem="2.16.840.1.113883.6.1"
+                                        codeSystemName="LOINC"
+                                        displayName="DIASTOLIC BLOOD PRESSURE"/>
+                                    <text>
+                                        <reference value="#diaBP_5495011500"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216160500+0000"/>
+                                    <value xsi:type="PQ" unit="mm[Hg]" value="68"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                                    <id extension="5495011500-pulse-Z7345"
+                                        root="1.2.840.114350.1.13.5.1.7.1.2109.1"/>
+                                    <code code="8867-4" codeSystem="2.16.840.1.113883.6.1"
+                                        codeSystemName="LOINC" displayName="HEART RATE"/>
+                                    <text>
+                                        <reference value="#pulse_5495011500"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216160500+0000"/>
+                                    <value xsi:type="PQ" unit="/min" value="68"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                                    <id extension="5495011500-tempC83-Z7345"
+                                        root="1.2.840.114350.1.13.5.1.7.1.2109.1"/>
+                                    <code code="8310-5" codeSystem="2.16.840.1.113883.6.1"
+                                        codeSystemName="LOINC" displayName="BODY TEMPERATURE"/>
+                                    <text>
+                                        <reference value="#temp_5495011500"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216160500+0000"/>
+                                    <value xsi:type="PQ" unit="Cel" value="36.8"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                                    <id extension="5495011500-resp-Z7345"
+                                        root="1.2.840.114350.1.13.5.1.7.1.2109.1"/>
+                                    <code code="9279-1" codeSystem="2.16.840.1.113883.6.1"
+                                        codeSystemName="LOINC" displayName="RESPIRATORY RATE"/>
+                                    <text>
+                                        <reference value="#resp_5495011500"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216160500+0000"/>
+                                    <value xsi:type="PQ" unit="/min" value="16"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                                    <id extension="5495011500-heightC83-Z7345"
+                                        root="1.2.840.114350.1.13.5.1.7.1.2109.1"/>
+                                    <code code="8302-2" codeSystem="2.16.840.1.113883.6.1"
+                                        codeSystemName="LOINC" displayName="HEIGHT"/>
+                                    <text>
+                                        <reference value="#height_5495011500"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216160500+0000"/>
+                                    <value xsi:type="PQ" unit="cm" value="165.1"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                                    <id extension="5495011500-weightC83-Z7345"
+                                        root="1.2.840.114350.1.13.5.1.7.1.2109.1"/>
+                                    <code code="3141-9" codeSystem="2.16.840.1.113883.6.1"
+                                        codeSystemName="LOINC" displayName="WEIGHT"/>
+                                    <text>
+                                        <reference value="#weight_5495011500"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216160500+0000"/>
+                                    <value xsi:type="PQ" unit="kg" value="52.164"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                                    <id extension="5495011500-bmi-Z7345"
+                                        root="1.2.840.114350.1.13.5.1.7.1.2109.1"/>
+                                    <code code="39156-5" codeSystem="2.16.840.1.113883.6.1"
+                                        codeSystemName="LOINC" displayName="BODY MASS INDEX"/>
+                                    <text>
+                                        <reference value="#bmi_5495011500"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216160500+0000"/>
+                                    <value xsi:type="PQ" unit="kg/m2" value="19.14"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                                    <id extension="5495011500-SpO2-Z7345"
+                                        root="1.2.840.114350.1.13.5.1.7.1.2109.1"/>
+                                    <code code="2710-2" codeSystem="2.16.840.1.113883.6.1"
+                                        codeSystemName="LOINC" displayName="OXYGEN SATURATION"/>
+                                    <text>
+                                        <reference value="#SpO2_5495011500"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216160500+0000"/>
+                                    <value xsi:type="PQ" unit="%" value="99"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                                </observation>
+                            </component>
+                        </organizer>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.14"/>
+                    <code code="47420-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                        displayName="Functional Status"/>
+                    <title>Functional Status</title>
+                    <text>
+                        <table>
+                            <colgroup>
+                                <col width="75%"/>
+                                <col width="25%"/>
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th>Functional Status</th>
+                                    <th>Response</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ID="question5">
+                                    <td>Is the person deaf or does he/she have serious difficulty
+                                        hearing? </td>
+                                    <td>
+                                        <content>No</content>
+                                    </td>
+                                </tr>
+                                <tr ID="question6">
+                                    <td>Is this person blind or does he/she have serious difficulty
+                                        seeing even when wearing glasses? </td>
+                                    <td>
+                                        <content>No</content>
+                                    </td>
+                                </tr>
+                                <tr ID="question7">
+                                    <td>Does this person have serious difficulty walking or climbing
+                                        stairs? Or are they dependent on a walking stick? </td>
+                                    <td>
+                                        <content>No</content>
+                                    </td>
+                                </tr>
+                                <tr ID="question8">
+                                    <td>Does this person have difficulty dressing or bathing? </td>
+                                    <td>
+                                        <content>No</content>
+                                    </td>
+                                </tr>
+                                <tr ID="question9">
+                                    <td>Because of a physical, mental, or emotional condition, does
+                                        this person have difficulty doing errands alone such as
+                                        visiting a doctor's office or shopping? </td>
+                                    <td>
+                                        <content>No</content>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table>
+                            <colgroup>
+                                <col width="75%"/>
+                                <col width="25%"/>
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th>Cognitive Status</th>
+                                    <th>Response</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ID="question10">
+                                    <td>Because of a physical, mental, or emotional condition, does
+                                        this person have serious difficulty concentrating,
+                                        remembering, or making decisions? </td>
+                                    <td>
+                                        <content>No</content>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.45"/>
+                    <id root="FB02F9D7-A392-450A-A7F5-7560DFC43785"/>
+                    <code code="69730-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                        displayName="Instructions"/>
+                    <title>Instructions</title>
+                    <text>
+                        <list styleCode="TOC">
+                            <item>
+                                <caption>Patient Instructions - Walker, Drew, M.D. - Mon Feb 16,
+                                    2015 11:59 PM CST</caption>
+                                <br/>
+                                <paragraph>Patient Information on Allergies and Asthma<br/>You have
+                                    been diagnosed with asthma and allergies. These conditions are
+                                    quite common, and there are lots of things you can do to keep
+                                    your allergies from flaring up.<br/><br/>What are allergies?
+                                    <br/>Allergies are caused by your immune system overreacting to
+                                    things that are harmless to other people, like cat hair, mold,
+                                    pollen, and house dust. Common reactions include sneezing, runny
+                                    nose, itchy throat, wheezing, and rashes.<br/><br/>How can I
+                                    avoid these reactions?<br/>1. Avoid things that trigger your
+                                    allergies. Keep windows up during days with a high pollen count
+                                    if you are allergic to pollens. Use air purifiers and air
+                                    conditioners.<br/>2. Take your medications. You doctor may have
+                                    prescribed medications for you to take every day. Certain
+                                    medications work to prevent allergic flare ups and must be taken
+                                    regularly. If they are only taken after you are not feeling
+                                    well, they do not do their job.<br/>3. Keep stress levels down.
+                                    Allergic reactions are often worse when accompanied by
+                                    stress.</paragraph>
+                            </item>
+                        </list>
+                    </text>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.4"/>
+                    <id root="2B88F0A3-CCC2-4DF7-BF25-5A65C66ABCBA"/>
+                    <code code="10164-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                        displayName="History of Present Illness"/>
+                    <title>Progress Notes</title>
+                    <text>
+                        <list styleCode="TOC">
+                            <item>
+                                <caption>Carter, Janell - Mon Feb 16, 2015 10:25 AM CST</caption>
+                                <br/>
+                                <paragraph>Mild problems with managing allergies, but nothing
+                                    significant.</paragraph>
+                            </item>
+                        </list>
+                    </text>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.10"/>
+                    <code code="18776-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                        displayName="Treatment plan"/>
+                    <title>Plan of Care</title>
+                    <text>
+                        <table ID="planOfCare12">
+                            <colgroup>
+                                <col width="25%"/>
+                                <col width="75%"/>
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th>Patient Goal Type</th>
+                                    <th>Goal</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Contingency</td>
+                                    <td>
+                                        <paragraph styleCode="Bold" ID="planOfCare12goal1">Manage
+                                            your asthma symptoms</paragraph>
+                                        <paragraph ID="planOfCare12goal1note">AT ANY TIME, CALL YOUR
+                                            MEDICAL PROVIDER IF:<br/>· Asthma symptoms worsen while
+                                            you are taking oral steroids, or<br/>· Quick-relief
+                                            medication is lasting less than 4 hours, or<br/>· Your
+                                            peak flow number falls below 50% of personal best
+                                            despite following your Asthma Action
+                                            Plan.<br/><br/>YELLOW ZONE: Asthma is Getting Worse
+                                            <br/>· Cough, wheeze, chest tightness or shortness of
+                                            breath, or<br/>· Waking at night due to asthma, or<br/>·
+                                            Can do some, but not all, usual activities<br/><br/>Take
+                                            the Following Actions:<br/>Add: Quick-Relief Medicine
+                                            <br/>First: Take 2 puffs of your quick-relief medicine
+                                            every 30 minutes. <br/>Then: If your symptoms (and peak
+                                            flows) return to Green Zone after 1 hour of above
+                                            treatment: Take 2 puffs of your quick-relief medicine
+                                            every 4 hours. If your symptoms (and peak flows) do not
+                                            return to Green Zone after 1 hour of above treatment:
+                                            Take 2 puffs of your quick-relief medicine every 30
+                                            minutes. <br/><br/>RED ZONE: Medical Alert! <br/>· Very
+                                            short of breath, or<br/>· Quick relief medications have
+                                            not helped, or<br/>· Cannot do usual activities,
+                                            or<br/>· Symptoms are same or worse after 24 hours in
+                                            the Yellow Zone<br/>
+                                            <br/>Take the Following Actions: <br/>First: Take 2
+                                            puffs of your quick-relief medicine every 10
+                                            minutes.<br/>Then call your medical provider NOW.
+                                        </paragraph>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry>
+                        <observation classCode="OBS" moodCode="PRP">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.44"/>
+                            <id extension="10741" root="1.2.840.114350.1.13.5.1.7.2.737179"/>
+                            <code nullFlavor="UNK">
+                                <originalText>
+                                    <reference value="#planOfCare12goal1"/>
+                                </originalText>
+                            </code>
+                            <entryRelationship typeCode="COMP">
+                                <act classCode="ACT" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.64"/>
+                                    <code code="48767-8" codeSystem="2.16.840.1.113883.6.1"
+                                        codeSystemName="LOINC" displayName="comment"/>
+                                    <text>
+                                        <reference value="#planOfCare12goal1note"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                </act>
+                            </entryRelationship>
+                        </observation>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.7.1"/>
+                    <id root="56A3A406-7D57-4BD4-9120-7B80EE5B14B7"/>
+                    <code code="47519-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                        displayName="History of procedures"/>
+                    <title>Procedures</title>
+                    <text>
+                        <content ID="nof13">Not on file</content>
+                    </text>
+                    <entry>
+                        <procedure classCode="PROC" moodCode="EVN" nullFlavor="NI">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.14"/>
+                            <id nullFlavor="UNK"/>
+                            <code nullFlavor="UNK"/>
+                            <statusCode code="completed"/>
+                            <effectiveTime>
+                                <low nullFlavor="UNK"/>
+                            </effectiveTime>
+                        </procedure>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.3.1"/>
+                    <id root="81D57F33-D5C1-477E-8B0E-274CDAF7FE52"/>
+                    <code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                        displayName="STUDIES SUMMARY"/>
+                    <title>Results</title>
+                    <text>
+                        <list styleCode="TOC">
+                            <item ID="Result19">
+                                <caption>CBC (Mon Feb 16, 2015 10:35 AM CST)</caption>
+                                <table>
+                                    <colgroup>
+                                        <col width="25%"/>
+                                        <col width="50%"/>
+                                        <col width="25%"/>
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th>Component</th>
+                                            <th>Value</th>
+                                            <th>Range</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr ID="Result19Comp1">
+                                            <td ID="Result19Comp1Name">Hemoglobin</td>
+                                            <td>13.8</td>
+                                            <td>12-16 g/dL</td>
+                                        </tr>
+                                        <tr ID="Result19Comp2">
+                                            <td ID="Result19Comp2Name">Hematocrit</td>
+                                            <td>39.2</td>
+                                            <td>34.9-44.5 %</td>
+                                        </tr>
+                                        <tr ID="Result19Comp3">
+                                            <td ID="Result19Comp3Name">RBC's</td>
+                                            <td>4.21</td>
+                                            <td>3.90-5.03 X 10E12/L</td>
+                                        </tr>
+                                        <tr ID="Result19Comp4">
+                                            <td ID="Result19Comp4Name">MCV</td>
+                                            <td>95</td>
+                                            <td>80-100 um3</td>
+                                        </tr>
+                                        <tr ID="Result19Comp5">
+                                            <td ID="Result19Comp5Name">Leukocytes</td>
+                                            <td>8</td>
+                                            <td>3.5-10.5 X 10E9/L</td>
+                                        </tr>
+                                        <tr ID="Result19Comp6">
+                                            <td ID="Result19Comp6Name">Bands %</td>
+                                            <td>2.6</td>
+                                            <td>0-3 %</td>
+                                        </tr>
+                                        <tr ID="Result19Comp7">
+                                            <td ID="Result19Comp7Name">Neutrophils %</td>
+                                            <td>57.1</td>
+                                            <td>47-77 %</td>
+                                        </tr>
+                                        <tr ID="Result19Comp8">
+                                            <td ID="Result19Comp8Name">Lymphocytes %</td>
+                                            <td>31.2</td>
+                                            <td>25-33 %</td>
+                                        </tr>
+                                        <tr ID="Result19Comp9">
+                                            <td ID="Result19Comp9Name">Monocytes %</td>
+                                            <td>4.68</td>
+                                            <td>3-7 %</td>
+                                        </tr>
+                                        <tr ID="Result19Comp10">
+                                            <td ID="Result19Comp10Name">Eosinophils %</td>
+                                            <td>2.24</td>
+                                            <td>1-3 %</td>
+                                        </tr>
+                                        <tr ID="Result19Comp11">
+                                            <td ID="Result19Comp11Name">Basophils %</td>
+                                            <td>1.79</td>
+                                            <td>1-3 %</td>
+                                        </tr>
+                                        <tr ID="Result19Comp12">
+                                            <td ID="Result19Comp12Name">Platelets</td>
+                                            <td>213</td>
+                                            <td>150-450 X 10E9/L</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Specimen</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td ID="Result19Specimen">Whole blood</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </item>
+                            <item ID="Result18">
+                                <caption>Lipid Panel (Mon Feb 16, 2015 10:25 AM CST)</caption>
+                                <table>
+                                    <colgroup>
+                                        <col width="25%"/>
+                                        <col width="50%"/>
+                                        <col width="25%"/>
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th>Component</th>
+                                            <th>Value</th>
+                                            <th>Range</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr ID="Result18Comp1">
+                                            <td ID="Result18Comp1Name">Cholesterol</td>
+                                            <td>
+                                                <content styleCode="flagData">
+                                                  <content>
+                                                  <content>205</content>
+                                                  </content>
+                                                  <content> (A)</content>
+                                                </content>
+                                            </td>
+                                            <td>200 mg/dL</td>
+                                        </tr>
+                                        <tr ID="Result18Comp2">
+                                            <td ID="Result18Comp2Name">HDL</td>
+                                            <td>41</td>
+                                            <td>40-60 mg/dl</td>
+                                        </tr>
+                                        <tr ID="Result18Comp3">
+                                            <td ID="Result18Comp3Name">LDL</td>
+                                            <td>91</td>
+                                            <td>50-100 mg/dl</td>
+                                        </tr>
+                                        <tr ID="Result18Comp4">
+                                            <td ID="Result18Comp4Name">Triclycerides</td>
+                                            <td>160</td>
+                                            <td>35-200 mg/dl</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Specimen</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td ID="Result18Specimen">Serum-blood</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </item>
+                            <item ID="Result17">
+                                <caption>Liquid-based pap smear, screening (Mon Feb 16, 2015 9:35 AM
+                                    CST)</caption>
+                                <table>
+                                    <colgroup>
+                                        <col width="25%"/>
+                                        <col width="50%"/>
+                                        <col width="25%"/>
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th>Component</th>
+                                            <th>Value</th>
+                                            <th>Range</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr ID="Result17Comp1">
+                                            <td ID="Result17Comp1Name">Pap smear</td>
+                                            <td>
+                                                <content>
+                                                  <content>Not Abnormal</content>
+                                                </content>
+                                                <content styleCode="allIndent">
+                                                  <content styleCode="cellHeader">Comment: </content>
+                                                  <content ID="Result17Comp1Comment">PAP
+                                                  okay</content>
+                                                </content>
+                                            </td>
+                                            <td/>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Specimen</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td ID="Result17Specimen">Genital - Cervix</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Narrative</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td ID="Result17Narrative" styleCode="pre">
+                                                <paragraph>SPECIMEN: WCC-10-002773</paragraph>
+                                                <paragraph> </paragraph>
+                                                <paragraph>SOURCE: ENDOCERVIX THIN PREP
+                                                  PAP:</paragraph>
+                                                <paragraph>Received: one vial intact with 20 cc
+                                                  fluid- Includes specimen and</paragraph>
+                                                <paragraph>fixative.</paragraph>
+                                                <paragraph> </paragraph>
+                                                <paragraph>CLINICAL INFORMATION:</paragraph>
+                                                <paragraph>Previous smear date:
+                                                  12/19/2012</paragraph>
+                                                <paragraph>Previous normal: yes</paragraph>
+                                                <paragraph> </paragraph>
+                                                <paragraph>ADEQUACY:</paragraph>
+                                                <paragraph>Satisfactory for evaluation.</paragraph>
+                                                <paragraph>Transformation zone component present. </paragraph>
+                                                <paragraph> </paragraph>
+                                                <paragraph>PAP SMEAR: NOT ABNORMAL</paragraph>
+                                                <paragraph> </paragraph>
+                                                <paragraph>NARRATIVE DESCRIPTION:</paragraph>
+                                                <paragraph>Negative for intraepithelial lesion or
+                                                  malignancy. </paragraph>
+                                                <paragraph> </paragraph>
+                                                <paragraph>COMMENT: Cervical cytology is a screening
+                                                  test with limited</paragraph>
+                                                <paragraph>sensitivity. It is not a diagnostic
+                                                  procedure and should not be</paragraph>
+                                                <paragraph>used as the sole means to detect cervical
+                                                  cancer, especially in</paragraph>
+                                                <paragraph>patients with symptoms or an abnormal
+                                                  cervix. Regular screening</paragraph>
+                                                <paragraph>is critical for cancer prevention.
+                                                  Cervical cytology tests are</paragraph>
+                                                <paragraph>primarily effective for the
+                                                  diagnosis/prevention of squamous cell</paragraph>
+                                                <paragraph>carcinoma, not adenocarcinoma or other
+                                                  malignancies.</paragraph>
+                                                <paragraph> </paragraph>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </item>
+                        </list>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <organizer classCode="BATTERY" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+                            <id extension="801561" root="1.2.840.114350.1.13.5.1.7.2.798268"/>
+                            <code code="9101331" codeSystem="1.2.840.114350.1.13.5.1.7.2.696580"
+                                codeSystemName="Epic.EAP.ID"
+                                displayName="Liquid-based pap smear, screening"/>
+                            <statusCode code="completed"/>
+                            <effectiveTime>
+                                <low value="20150216093500"/>
+                            </effectiveTime>
+                            <specimen typeCode="SPC">
+                                <specimenRole classCode="SPEC">
+                                    <id extension="801561"
+                                        root="1.2.840.114350.1.13.5.1.7.7.798268.300"/>
+                                    <specimenPlayingEntity>
+                                        <code code="85"
+                                            codeSystem="1.2.840.114350.1.13.5.1.7.4.798268.300"
+                                            codeSystemName="Epic.Specimen"
+                                            displayName="Genital - Cervix"/>
+                                    </specimenPlayingEntity>
+                                </specimenRole>
+                            </specimen>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                                    <id extension="801561.1"
+                                        root="1.2.840.114350.1.13.5.1.7.6.798268.2000"/>
+                                    <code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                                        nullFlavor="UNK">
+                                        <originalText>
+                                            <reference value="#Result17Comp1Name"/>
+                                        </originalText>
+                                        <translation code="266"
+                                            codeSystem="1.2.840.114350.1.13.5.1.7.2.768282"
+                                            codeSystemName="Epic.LRR.ID" displayName="Pap smear"/>
+                                    </code>
+                                    <text>
+                                        <reference value="#Result17Comp1"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216093500"/>
+                                    <value xsi:type="ST"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Not
+                                        Abnormal</value>
+                                    <entryRelationship typeCode="COMP">
+                                        <act classCode="ACT" moodCode="EVN">
+                                            <templateId root="2.16.840.1.113883.10.20.22.4.64"/>
+                                            <code code="48767-8" codeSystem="2.16.840.1.113883.6.1"
+                                                codeSystemName="LOINC" displayName="comment"/>
+                                            <text>
+                                                <reference value="#Result17Comp1Comment"/>
+                                            </text>
+                                            <statusCode code="completed"/>
+                                        </act>
+                                    </entryRelationship>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                                    <templateId root="1.2.840.114350.1.72.3.1"/>
+                                    <id extension="801561"
+                                        root="1.2.840.114350.1.13.5.1.7.7.798268.1000"/>
+                                    <code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                                        nullFlavor="UNK">
+                                        <translation code="NAR" codeSystemName="Epic.ResultText"/>
+                                    </code>
+                                    <text>
+                                        <reference value="#Result17Narrative"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216093500"/>
+                                    <value xsi:type="ED"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                                        <reference value="#Result17Narrative"/>
+                                    </value>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                                    <templateId root="1.2.840.114350.1.72.3.3"/>
+                                    <id extension="801561" root="1.2.840.114350.1.13.5.1.7.2.798268"/>
+                                    <code code="56850-1" codeSystem="2.16.840.1.113883.6.1"
+                                        codeSystemName="LOINC" displayName="Lab Interpretation"/>
+                                    <text>
+                                        <reference nullFlavor="UNK"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216093500"/>
+                                    <value xsi:type="ST"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                        >Normal</value>
+                                </observation>
+                            </component>
+                            <component typeCode="COMP">
+                                <encounter classCode="ENC" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+                                    <id extension="447572"
+                                        root="1.2.840.114350.1.13.5.1.7.3.698084.8"/>
+                                    <code code="101"
+                                        codeSystem="1.2.840.114350.1.13.5.1.7.4.698084.30"
+                                        codeSystemName="Epic.EncounterType"
+                                        displayName="Office Visit"/>
+                                    <effectiveTime>
+                                        <low value="20150216"/>
+                                    </effectiveTime>
+                                </encounter>
+                            </component>
+                        </organizer>
+                    </entry>
+                    <entry typeCode="DRIV">
+                        <organizer classCode="BATTERY" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+                            <id extension="801562" root="1.2.840.114350.1.13.5.1.7.2.798268"/>
+                            <code code="80061" codeSystem="2.16.840.1.113883.6.12"
+                                codeSystemName="CPT-4" displayName="Lipid Panel"/>
+                            <statusCode code="completed"/>
+                            <effectiveTime>
+                                <low value="20150216102500"/>
+                            </effectiveTime>
+                            <specimen typeCode="SPC">
+                                <specimenRole classCode="SPEC">
+                                    <id extension="801562"
+                                        root="1.2.840.114350.1.13.5.1.7.7.798268.300"/>
+                                    <specimenPlayingEntity>
+                                        <code code="4"
+                                            codeSystem="1.2.840.114350.1.13.5.1.7.4.798268.300"
+                                            codeSystemName="Epic.Specimen" displayName="Serum-blood"
+                                        />
+                                    </specimenPlayingEntity>
+                                </specimenRole>
+                            </specimen>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                                    <id extension="801562.1"
+                                        root="1.2.840.114350.1.13.5.1.7.6.798268.2000"/>
+                                    <code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                                        nullFlavor="UNK">
+                                        <originalText>
+                                            <reference value="#Result18Comp1Name"/>
+                                        </originalText>
+                                        <translation code="107"
+                                            codeSystem="1.2.840.114350.1.13.5.1.7.2.768282"
+                                            codeSystemName="Epic.LRR.ID" displayName="Cholesterol"/>
+                                    </code>
+                                    <text>
+                                        <reference value="#Result18Comp1"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216102500"/>
+                                    <value xsi:type="PQ" unit="mg/dL" value="205"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                                    <interpretationCode code="A"/>
+                                    <referenceRange>
+                                        <observationRange>
+                                            <text>200</text>
+                                        </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                                    <id extension="801562.2"
+                                        root="1.2.840.114350.1.13.5.1.7.6.798268.2000"/>
+                                    <code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                                        nullFlavor="UNK">
+                                        <originalText>
+                                            <reference value="#Result18Comp2Name"/>
+                                        </originalText>
+                                        <translation code="204"
+                                            codeSystem="1.2.840.114350.1.13.5.1.7.2.768282"
+                                            codeSystemName="Epic.LRR.ID" displayName="HDL"/>
+                                    </code>
+                                    <text>
+                                        <reference value="#Result18Comp2"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216102500"/>
+                                    <value xsi:type="PQ" unit="mg/dl" value="41"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                                    <referenceRange>
+                                        <observationRange>
+                                            <text>40-60</text>
+                                        </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                                    <id extension="801562.3"
+                                        root="1.2.840.114350.1.13.5.1.7.6.798268.2000"/>
+                                    <code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                                        nullFlavor="UNK">
+                                        <originalText>
+                                            <reference value="#Result18Comp3Name"/>
+                                        </originalText>
+                                        <translation code="206"
+                                            codeSystem="1.2.840.114350.1.13.5.1.7.2.768282"
+                                            codeSystemName="Epic.LRR.ID" displayName="LDL"/>
+                                    </code>
+                                    <text>
+                                        <reference value="#Result18Comp3"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216102500"/>
+                                    <value xsi:type="PQ" unit="mg/dl" value="91"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                                    <referenceRange>
+                                        <observationRange>
+                                            <text>50-100</text>
+                                        </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                                    <id extension="801562.4"
+                                        root="1.2.840.114350.1.13.5.1.7.6.798268.2000"/>
+                                    <code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                                        nullFlavor="UNK">
+                                        <originalText>
+                                            <reference value="#Result18Comp4Name"/>
+                                        </originalText>
+                                        <translation code="156"
+                                            codeSystem="1.2.840.114350.1.13.5.1.7.2.768282"
+                                            codeSystemName="Epic.LRR.ID" displayName="Triclycerides"
+                                        />
+                                    </code>
+                                    <text>
+                                        <reference value="#Result18Comp4"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216102500"/>
+                                    <value xsi:type="PQ" unit="mg/dl" value="160"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                                    <referenceRange>
+                                        <observationRange>
+                                            <text>35-200</text>
+                                        </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                                    <templateId root="1.2.840.114350.1.72.3.3"/>
+                                    <id extension="801562" root="1.2.840.114350.1.13.5.1.7.2.798268"/>
+                                    <code code="56850-1" codeSystem="2.16.840.1.113883.6.1"
+                                        codeSystemName="LOINC" displayName="Lab Interpretation"/>
+                                    <text>
+                                        <reference nullFlavor="UNK"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216102500"/>
+                                    <value xsi:type="ST"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                        >Abnormal</value>
+                                </observation>
+                            </component>
+                            <component typeCode="COMP">
+                                <encounter classCode="ENC" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+                                    <id extension="447572"
+                                        root="1.2.840.114350.1.13.5.1.7.3.698084.8"/>
+                                    <code code="101"
+                                        codeSystem="1.2.840.114350.1.13.5.1.7.4.698084.30"
+                                        codeSystemName="Epic.EncounterType"
+                                        displayName="Office Visit"/>
+                                    <effectiveTime>
+                                        <low value="20150216"/>
+                                    </effectiveTime>
+                                </encounter>
+                            </component>
+                        </organizer>
+                    </entry>
+                    <entry typeCode="DRIV">
+                        <organizer classCode="BATTERY" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+                            <id extension="801560" root="1.2.840.114350.1.13.5.1.7.2.798268"/>
+                            <code code="9101376" codeSystem="1.2.840.114350.1.13.5.1.7.2.696580"
+                                codeSystemName="Epic.EAP.ID" displayName="CBC"/>
+                            <statusCode code="completed"/>
+                            <effectiveTime>
+                                <low value="20150216103500"/>
+                            </effectiveTime>
+                            <specimen typeCode="SPC">
+                                <specimenRole classCode="SPEC">
+                                    <id extension="801560"
+                                        root="1.2.840.114350.1.13.5.1.7.7.798268.300"/>
+                                    <specimenPlayingEntity>
+                                        <code code="5"
+                                            codeSystem="1.2.840.114350.1.13.5.1.7.4.798268.300"
+                                            codeSystemName="Epic.Specimen" displayName="Whole blood"
+                                        />
+                                    </specimenPlayingEntity>
+                                </specimenRole>
+                            </specimen>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                                    <id extension="801560.1"
+                                        root="1.2.840.114350.1.13.5.1.7.6.798268.2000"/>
+                                    <code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                                        nullFlavor="UNK">
+                                        <originalText>
+                                            <reference value="#Result19Comp1Name"/>
+                                        </originalText>
+                                        <translation code="124"
+                                            codeSystem="1.2.840.114350.1.13.5.1.7.2.768282"
+                                            codeSystemName="Epic.LRR.ID" displayName="Hemoglobin"/>
+                                    </code>
+                                    <text>
+                                        <reference value="#Result19Comp1"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216103500"/>
+                                    <value xsi:type="PQ" unit="g/dL" value="13.8"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                                    <referenceRange>
+                                        <observationRange>
+                                            <text>12-16</text>
+                                        </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                                    <id extension="801560.2"
+                                        root="1.2.840.114350.1.13.5.1.7.6.798268.2000"/>
+                                    <code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                                        nullFlavor="UNK">
+                                        <originalText>
+                                            <reference value="#Result19Comp2Name"/>
+                                        </originalText>
+                                        <translation code="125"
+                                            codeSystem="1.2.840.114350.1.13.5.1.7.2.768282"
+                                            codeSystemName="Epic.LRR.ID" displayName="Hematocrit"/>
+                                    </code>
+                                    <text>
+                                        <reference value="#Result19Comp2"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216103500"/>
+                                    <value xsi:type="PQ" unit="%" value="39.2"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                                    <referenceRange>
+                                        <observationRange>
+                                            <text>34.9-44.5</text>
+                                        </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                                    <id extension="801560.3"
+                                        root="1.2.840.114350.1.13.5.1.7.6.798268.2000"/>
+                                    <code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                                        nullFlavor="UNK">
+                                        <originalText>
+                                            <reference value="#Result19Comp3Name"/>
+                                        </originalText>
+                                        <translation code="123"
+                                            codeSystem="1.2.840.114350.1.13.5.1.7.2.768282"
+                                            codeSystemName="Epic.LRR.ID" displayName="RBC's"/>
+                                    </code>
+                                    <text>
+                                        <reference value="#Result19Comp3"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216103500"/>
+                                    <value xsi:type="ST"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">4.21 X
+                                        10E12/L</value>
+                                    <referenceRange>
+                                        <observationRange>
+                                            <text>3.90-5.03</text>
+                                        </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                                    <id extension="801560.4"
+                                        root="1.2.840.114350.1.13.5.1.7.6.798268.2000"/>
+                                    <code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                                        nullFlavor="UNK">
+                                        <originalText>
+                                            <reference value="#Result19Comp4Name"/>
+                                        </originalText>
+                                        <translation code="126"
+                                            codeSystem="1.2.840.114350.1.13.5.1.7.2.768282"
+                                            codeSystemName="Epic.LRR.ID" displayName="MCV"/>
+                                    </code>
+                                    <text>
+                                        <reference value="#Result19Comp4"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216103500"/>
+                                    <value xsi:type="PQ" unit="um3" value="95"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                                    <referenceRange>
+                                        <observationRange>
+                                            <text>80-100</text>
+                                        </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                                    <id extension="801560.5"
+                                        root="1.2.840.114350.1.13.5.1.7.6.798268.2000"/>
+                                    <code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                                        nullFlavor="UNK">
+                                        <originalText>
+                                            <reference value="#Result19Comp5Name"/>
+                                        </originalText>
+                                        <translation code="122"
+                                            codeSystem="1.2.840.114350.1.13.5.1.7.2.768282"
+                                            codeSystemName="Epic.LRR.ID" displayName="Leukocytes"/>
+                                    </code>
+                                    <text>
+                                        <reference value="#Result19Comp5"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216103500"/>
+                                    <value xsi:type="ST"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">8 X
+                                        10E9/L</value>
+                                    <referenceRange>
+                                        <observationRange>
+                                            <text>3.5-10.5</text>
+                                        </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                                    <id extension="801560.6"
+                                        root="1.2.840.114350.1.13.5.1.7.6.798268.2000"/>
+                                    <code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                                        nullFlavor="UNK">
+                                        <originalText>
+                                            <reference value="#Result19Comp6Name"/>
+                                        </originalText>
+                                        <translation code="337"
+                                            codeSystem="1.2.840.114350.1.13.5.1.7.2.768282"
+                                            codeSystemName="Epic.LRR.ID" displayName="Bands %"/>
+                                    </code>
+                                    <text>
+                                        <reference value="#Result19Comp6"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216103500"/>
+                                    <value xsi:type="PQ" unit="%" value="2.6"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                                    <referenceRange>
+                                        <observationRange>
+                                            <text>0-3</text>
+                                        </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                                    <id extension="801560.7"
+                                        root="1.2.840.114350.1.13.5.1.7.6.798268.2000"/>
+                                    <code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                                        nullFlavor="UNK">
+                                        <originalText>
+                                            <reference value="#Result19Comp7Name"/>
+                                        </originalText>
+                                        <translation code="218"
+                                            codeSystem="1.2.840.114350.1.13.5.1.7.2.768282"
+                                            codeSystemName="Epic.LRR.ID" displayName="Neutrophils %"
+                                        />
+                                    </code>
+                                    <text>
+                                        <reference value="#Result19Comp7"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216103500"/>
+                                    <value xsi:type="PQ" unit="%" value="57.1"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                                    <referenceRange>
+                                        <observationRange>
+                                            <text>47-77</text>
+                                        </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                                    <id extension="801560.8"
+                                        root="1.2.840.114350.1.13.5.1.7.6.798268.2000"/>
+                                    <code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                                        nullFlavor="UNK">
+                                        <originalText>
+                                            <reference value="#Result19Comp8Name"/>
+                                        </originalText>
+                                        <translation code="219"
+                                            codeSystem="1.2.840.114350.1.13.5.1.7.2.768282"
+                                            codeSystemName="Epic.LRR.ID" displayName="Lymphocytes %"
+                                        />
+                                    </code>
+                                    <text>
+                                        <reference value="#Result19Comp8"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216103500"/>
+                                    <value xsi:type="PQ" unit="%" value="31.2"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                                    <referenceRange>
+                                        <observationRange>
+                                            <text>25-33</text>
+                                        </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                                    <id extension="801560.9"
+                                        root="1.2.840.114350.1.13.5.1.7.6.798268.2000"/>
+                                    <code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                                        nullFlavor="UNK">
+                                        <originalText>
+                                            <reference value="#Result19Comp9Name"/>
+                                        </originalText>
+                                        <translation code="137"
+                                            codeSystem="1.2.840.114350.1.13.5.1.7.2.768282"
+                                            codeSystemName="Epic.LRR.ID" displayName="Monocytes %"/>
+                                    </code>
+                                    <text>
+                                        <reference value="#Result19Comp9"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216103500"/>
+                                    <value xsi:type="PQ" unit="%" value="4.68"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                                    <referenceRange>
+                                        <observationRange>
+                                            <text>3-7</text>
+                                        </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                                    <id extension="801560.10"
+                                        root="1.2.840.114350.1.13.5.1.7.6.798268.2000"/>
+                                    <code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                                        nullFlavor="UNK">
+                                        <originalText>
+                                            <reference value="#Result19Comp10Name"/>
+                                        </originalText>
+                                        <translation code="220"
+                                            codeSystem="1.2.840.114350.1.13.5.1.7.2.768282"
+                                            codeSystemName="Epic.LRR.ID" displayName="Eosinophils %"
+                                        />
+                                    </code>
+                                    <text>
+                                        <reference value="#Result19Comp10"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216103500"/>
+                                    <value xsi:type="PQ" unit="%" value="2.24"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                                    <referenceRange>
+                                        <observationRange>
+                                            <text>1-3</text>
+                                        </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                                    <id extension="801560.11"
+                                        root="1.2.840.114350.1.13.5.1.7.6.798268.2000"/>
+                                    <code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                                        nullFlavor="UNK">
+                                        <originalText>
+                                            <reference value="#Result19Comp11Name"/>
+                                        </originalText>
+                                        <translation code="221"
+                                            codeSystem="1.2.840.114350.1.13.5.1.7.2.768282"
+                                            codeSystemName="Epic.LRR.ID" displayName="Basophils %"/>
+                                    </code>
+                                    <text>
+                                        <reference value="#Result19Comp11"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216103500"/>
+                                    <value xsi:type="PQ" unit="%" value="1.79"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                                    <referenceRange>
+                                        <observationRange>
+                                            <text>1-3</text>
+                                        </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                                    <id extension="801560.12"
+                                        root="1.2.840.114350.1.13.5.1.7.6.798268.2000"/>
+                                    <code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                                        nullFlavor="UNK">
+                                        <originalText>
+                                            <reference value="#Result19Comp12Name"/>
+                                        </originalText>
+                                        <translation code="130"
+                                            codeSystem="1.2.840.114350.1.13.5.1.7.2.768282"
+                                            codeSystemName="Epic.LRR.ID" displayName="Platelets"/>
+                                    </code>
+                                    <text>
+                                        <reference value="#Result19Comp12"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216103500"/>
+                                    <value xsi:type="ST"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">213 X
+                                        10E9/L</value>
+                                    <referenceRange>
+                                        <observationRange>
+                                            <text>150-450</text>
+                                        </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                                    <templateId root="1.2.840.114350.1.72.3.3"/>
+                                    <id extension="801560" root="1.2.840.114350.1.13.5.1.7.2.798268"/>
+                                    <code code="56850-1" codeSystem="2.16.840.1.113883.6.1"
+                                        codeSystemName="LOINC" displayName="Lab Interpretation"/>
+                                    <text>
+                                        <reference nullFlavor="UNK"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20150216103500"/>
+                                    <value xsi:type="ST"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                        >Normal</value>
+                                </observation>
+                            </component>
+                            <component typeCode="COMP">
+                                <encounter classCode="ENC" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+                                    <id extension="447572"
+                                        root="1.2.840.114350.1.13.5.1.7.3.698084.8"/>
+                                    <code code="101"
+                                        codeSystem="1.2.840.114350.1.13.5.1.7.4.698084.30"
+                                        codeSystemName="Epic.EncounterType"
+                                        displayName="Office Visit"/>
+                                    <effectiveTime>
+                                        <low value="20150216"/>
+                                    </effectiveTime>
+                                </encounter>
+                            </component>
+                        </organizer>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.8"/>
+                    <id root="A7311A3C-107F-11E5-80A4-1404D61C2AE2"/>
+                    <code code="51848-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                        displayName="Assessments"/>
+                    <title>Visit Diagnoses</title>
+                    <text>
+                        <list>
+                            <item ID="vdx20">
+                                <caption ID="vdx20Name">Routine general medical examination at a
+                                    health care facility - Primary</caption>
+                                <paragraph>Routine general medical examination at a health care
+                                    facility</paragraph>
+                            </item>
+                            <item ID="vdx21">
+                                <caption ID="vdx21Name">Allergic rhinitis</caption>
+                                <paragraph>Allergic rhinitis, cause unspecified</paragraph>
+                            </item>
+                        </list>
+                    </text>
+                    <entry>
+                        <act classCode="ACT" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.80"/>
+                            <id extension="14863" root="1.2.840.114350.1.13.5.1.7.2.696871"/>
+                            <code code="29308-4" codeSystem="2.16.840.1.113883.6.1"
+                                displayName="Encounter Diagnosis"/>
+                            <statusCode code="active"/>
+                            <effectiveTime>
+                                <low nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <entryRelationship typeCode="SUBJ" inversionInd="false">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                                    <id extension="14863" root="1.2.840.114350.1.13.5.1.7.2.696871"/>
+                                    <code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+                                        codeSystemName="SNOMED CT" displayName="Problem"/>
+                                    <text>
+                                        <reference value="#vdx20Name"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime>
+                                        <low nullFlavor="UNK"/>
+                                    </effectiveTime>
+                                    <value code="310366008" codeSystem="2.16.840.1.113883.6.96"
+                                        codeSystemName="SNOMED CT"
+                                        displayName="Routine general medical examination at a health care facility"
+                                        xsi:type="CD"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                                        <originalText>
+                                            <reference value="#vdx20Name"/>
+                                        </originalText>
+                                        <translation code="V70.0"
+                                            codeSystem="2.16.840.1.113883.6.103"
+                                            codeSystemName="ICD-9CM"
+                                            displayName="Routine general medical examination at a health care facility"/>
+                                        <translation code="Z00.00"
+                                            codeSystem="2.16.840.1.113883.6.90"
+                                            codeSystemName="ICD-10-CM"
+                                            displayName="Routine general medical examination at a health care facility"
+                                        />
+                                    </value>
+                                    <entryRelationship typeCode="REFR">
+                                        <observation classCode="OBS" moodCode="EVN">
+                                            <code code="33999-4" codeSystem="2.16.840.1.113883.6.1"
+                                                displayName="Status"/>
+                                            <statusCode code="completed"/>
+                                            <effectiveTime>
+                                                <low nullFlavor="UNK"/>
+                                            </effectiveTime>
+                                            <value code="55561003"
+                                                codeSystem="2.16.840.1.113883.6.96"
+                                                displayName="Active" xsi:type="CE"
+                                                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                            />
+                                        </observation>
+                                    </entryRelationship>
+                                </observation>
+                            </entryRelationship>
+                        </act>
+                    </entry>
+                    <entry>
+                        <act classCode="ACT" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.80"/>
+                            <id extension="126437" root="1.2.840.114350.1.13.5.1.7.2.696871"/>
+                            <code code="29308-4" codeSystem="2.16.840.1.113883.6.1"
+                                displayName="Encounter Diagnosis"/>
+                            <statusCode code="active"/>
+                            <effectiveTime>
+                                <low nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <entryRelationship typeCode="SUBJ" inversionInd="false">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                                    <id extension="126437" root="1.2.840.114350.1.13.5.1.7.2.696871"/>
+                                    <code code="55607006" codeSystem="2.16.840.1.113883.6.96"
+                                        codeSystemName="SNOMED CT" displayName="Problem"/>
+                                    <text>
+                                        <reference value="#vdx21Name"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime>
+                                        <low nullFlavor="UNK"/>
+                                    </effectiveTime>
+                                    <value code="61582004" codeSystem="2.16.840.1.113883.6.96"
+                                        codeSystemName="SNOMED CT" displayName="Allergic rhinitis"
+                                        xsi:type="CD"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                                        <originalText>
+                                            <reference value="#vdx21Name"/>
+                                        </originalText>
+                                        <translation code="477.9"
+                                            codeSystem="2.16.840.1.113883.6.103"
+                                            codeSystemName="ICD-9CM" displayName="Allergic rhinitis"/>
+                                        <translation code="J30.9"
+                                            codeSystem="2.16.840.1.113883.6.90"
+                                            codeSystemName="ICD-10-CM"
+                                            displayName="Allergic rhinitis"/>
+                                    </value>
+                                    <entryRelationship typeCode="REFR">
+                                        <observation classCode="OBS" moodCode="EVN">
+                                            <code code="33999-4" codeSystem="2.16.840.1.113883.6.1"
+                                                displayName="Status"/>
+                                            <statusCode code="completed"/>
+                                            <effectiveTime>
+                                                <low nullFlavor="UNK"/>
+                                            </effectiveTime>
+                                            <value code="55561003"
+                                                codeSystem="2.16.840.1.113883.6.96"
+                                                displayName="Active" xsi:type="CE"
+                                                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                            />
+                                        </observation>
+                                    </entryRelationship>
+                                </observation>
+                            </entryRelationship>
+                        </act>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.38"/>
+                    <id root="DA7E55D8-69D2-44C1-A905-25DA35EF55BD"/>
+                    <code code="29549-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                        displayName="MEDICATIONS ADMINISTERED"/>
+                    <title>Administered Medications</title>
+                    <text>
+                        <content ID="nof22">Not on file</content>
+                    </text>
+                    <entry>
+                        <substanceAdministration classCode="SBADM" moodCode="EVN" nullFlavor="ASKU">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                            <id nullFlavor="NA"/>
+                            <text mediaType="text/xml"/>
+                            <statusCode code="completed"/>
+                            <effectiveTime xsi:type="IVL_TS"
+                                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                                <low nullFlavor="UNK"/>
+                                <high nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <consumable typeCode="CSM">
+                                <manufacturedProduct classCode="MANU">
+                                    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.7.2"/>
+                                    <templateId root="2.16.840.1.113883.10.20.1.53"/>
+                                    <templateId root="2.16.840.1.113883.3.88.11.32.9"/>
+                                    <templateId root="2.16.840.1.113883.3.88.11.83.8.2"/>
+                                    <templateId root="2.16.840.1.113883.3.249.11.100.13"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                                    <manufacturedMaterial>
+                                        <code codeSystem="2.16.840.1.113883.6.88" nullFlavor="NI">
+                                            <originalText>
+                                                <reference value="#nof22"/>
+                                            </originalText>
+                                        </code>
+                                    </manufacturedMaterial>
+                                </manufacturedProduct>
+                            </consumable>
+                        </substanceAdministration>
+                    </entry>
+                </section>
+            </component>
+        </structuredBody>
+    </component>
+</ClinicalDocument>
